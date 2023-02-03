@@ -10,7 +10,7 @@ function createWindow() {
         }
     })
 
-    win.loadFile('./dist/ttrpg-charakter-sheet-app/index.html')
+    win.loadFile('./dist/angular-build/index.html')
 }
 
 app.whenReady().then(() => {
