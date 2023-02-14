@@ -11,6 +11,8 @@ function createWindow() {
     })
 
     win.loadFile('./dist/angular-build/index.html')
+    win.removeMenu()
+
 }
 
 app.whenReady().then(() => {
